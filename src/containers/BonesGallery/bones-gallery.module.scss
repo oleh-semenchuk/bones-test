@@ -1,0 +1,36 @@
+.bonesGallery {
+  padding: 18px 0;
+  display: flex;
+  flex-direction: column;
+  &Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 26px;
+  }
+  &Title {
+    font-size: 32px;
+  }
+  &Counter {
+    font-size: 18px;
+    font-weight: 400;
+    strong {
+      font-weight: 600;
+    }
+  }
+  &Cards {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    max-width: 100%;
+    overflow: hidden;
+    grid-gap: 12px;
+  }
+  &Wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

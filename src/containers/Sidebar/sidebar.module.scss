@@ -1,0 +1,66 @@
+.sidebar {
+  padding: 20px 24px;
+  border: 1px solid #D1D1D6;
+  border-radius: 10px;
+  &Logo {
+    margin-bottom: 42px;
+  }
+  &Section {
+    margin-bottom: 24px;
+  }
+  &Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &RangeContainer {
+    margin-top: 12px;
+  }
+  &ClearBtn {
+    background: none;
+    border: none;
+    font: inherit;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  &HelpBtn {
+    background: none;
+    border: none;
+    font: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  &Filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    &Header{
+      margin-top: 16px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      &Button {
+        font: inherit;
+        font-size: 12px;
+        cursor: pointer;
+        border: none;
+        padding: 0;
+        background: unset;
+        font-weight: 400;
+        color: #3D9BE9;
+
+        &:disabled {
+          cursor: unset;
+          color: #D1D1D6;
+        }
+      }
+    }
+  }
+}

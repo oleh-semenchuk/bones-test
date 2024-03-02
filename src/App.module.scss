@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #041D32;
+}
+
+.container {
+    padding: 24px 32px;
+    display: grid;
+    grid-template-columns: 3fr 11fr;
+    min-height: 100vh;
+    grid-gap: 48px;
+}

@@ -1,0 +1,44 @@
+.thumb {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  padding: 5px;
+  border: 5px solid rgba(255, 215, 92, 1);
+  border-radius: 50%;
+  outline: unset;
+}
+
+.separateTrack {
+  height: 3px;
+  width: 100%;
+  background: rgba(255, 215, 92, 1);
+  border-radius: 4px;
+  &Bordered {
+    background: unset;
+    border: 1px solid rgba(255, 215, 92, 1);
+  }
+}
+
+.track {
+  width: 100%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  &Container {
+    height: 20px;
+    display: flex;
+  }
+}
+
+.labels {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 12px;
+  strong {
+    font-weight: 600;
+  }
+}
